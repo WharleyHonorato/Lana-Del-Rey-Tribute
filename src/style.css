@@ -1,0 +1,119 @@
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo h1 {
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.imagem1 img {
+    width: 100%;
+    height: 500px;
+}
+
+.imagem1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleHeader {
+    margin: 50px 0px 50px 0px;
+}
+
+.middleHeader p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.lyricsCont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDC495;
+    border-radius: 20px;
+}
+
+.lyrics {
+    margin-top: -15px;
+}
+
+.lyrics p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lyrics span {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.curiosidades {
+    margin: 50px 0px 0px 0px;
+}
+
+.curiosidades ul {
+    line-height: 40px;
+}
+
+.lyrics2 {
+    margin-top: -15px;
+}
+
+.lyrics2 {
+    margin: 50px 0px 0px 0px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDC495;
+}
+
+.lyrics22 span {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.lyrics22 p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.imagemFim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+}
