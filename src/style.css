@@ -130,3 +130,76 @@ body {
     align-items: center;
     margin: 50px 0px 0px 0px;
 }
+
+@media (max-width: 600px) {
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+    .imagem1 img {
+        width: 100%;
+        height: 350px;
+        margin-top: 25px;
+    }
+
+    .middleHeader p {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .curiosidades ul {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .imagem1 p {
+        text-align: center;
+    }
+
+    .middleHeader {
+        width: auto;
+        text-align: center;
+    }
+
+    .middleHeader p {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .lyrics p {
+        font-size: 18px;
+        padding: auto;
+        font-weight: bold;
+    }
+
+    .lyricsCont {
+        width: 100%;
+    }
+
+    .lyrics span {
+        font-size: 14px;
+        font-style: italic;
+        padding: 15px;
+    }
+
+    .lyrics22 p {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .lyrics22 span {
+        font-size: 14px;
+        padding: 20px;
+        font-style: italic;
+    }
+
+    .imagemFim img {
+        width: 400px;
+    }
+}
