@@ -137,6 +137,11 @@ body {
         margin: 10px;
         padding: 10px;
     }
+
+    .titulo {
+        text-align: center;
+    }
+
     .imagem1 img {
         width: 100%;
         height: 350px;
@@ -154,6 +159,7 @@ body {
         text-align: justify;
         line-height: 30px;
         list-style-type: none;
+        margin-left: -40px;
     }
 
     .imagem1 p {
@@ -201,5 +207,9 @@ body {
 
     .imagemFim img {
         width: 400px;
+    }
+
+    .lyrics22 p {
+        text-align: justify;
     }
 }
